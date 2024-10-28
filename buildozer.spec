@@ -7,7 +7,7 @@ title = Kivy to apk
 package.name = kivy_to_apk
 
 # (str) Package domain (needed for android/ios packaging)
-package.domain = org.wiseplat
+package.domain = org.ab59rus
 
 # (str) Source code where the main.py live
 source.dir = .
