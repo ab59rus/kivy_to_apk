@@ -4,7 +4,7 @@
 title = Kivy to apk
 
 # (str) Package name
-package.name = mobileapp001
+package.name = kivy_to_apk
 
 # (str) Package domain (needed for android/ios packaging)
 package.domain = org.wiseplat
