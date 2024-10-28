@@ -1,7 +1,7 @@
 [app]
 
 # (str) Title of your application
-title = Mobile App 001
+title = Kivy to apk
 
 # (str) Package name
 package.name = mobileapp001
