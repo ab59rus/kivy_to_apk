@@ -29,7 +29,7 @@ install:
   - ls -la
   - ls bin/ -l
   - gem install dpl --pre
-  - dpl releases --token $GitHubToken --file "bin/kivy_to_apk-0.3-armeabi-v7a-debug.apk" --tag_name "v.0.3"
+  - dpl releases --token $ght --file "bin/kivy_to_apk-0.3-armeabi-v7a-debug.apk" --tag_name "v.0.3"
   - echo "TODO COMPILE 64bit"
   - ls -l /home/travis/
   - ls -l /home/travis/build/ab59rus/kivy_to_apk/
@@ -46,5 +46,5 @@ install:
   - ls bin/ -l
   - echo "TODO"
   - gem install dpl --pre
-  - dpl releases --token $GitHubToken --file "bin/kivy_to_apk-0.3-arm64-v8a-debug.apk" --tag_name "v.0.3"
+  - dpl releases --token $ght --file "bin/kivy_to_apk-0.3-arm64-v8a-debug.apk" --tag_name "v.0.3"
   - echo "OK"
